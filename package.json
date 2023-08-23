@@ -1,0 +1,33 @@
+{
+  "name": "nosql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "SET NODE_ENV=test&& nodemon --exec mocha --recursive -R min"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlorisBotermans/NoSQL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlorisBotermans/NoSQL/issues"
+  },
+  "homepage": "https://github.com/FlorisBotermans/NoSQL#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cool-ascii-faces": "^1.3.4",
+    "express": "^4.16.4",
+    "mocha": "^5.2.0",
+    "mongoose": "^5.3.13",
+    "neo4j-driver": "^1.5.0",
+    "nodemon": "^1.18.6",
+    "supertest": "^3.3.0"
+  },
+  "description": ""
+}
